@@ -31,18 +31,18 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.6)
   - ORStackView (~> 3.0)
-  - Parse (from `git@github.com:ParsePlatform/Parse-SDK-iOS-OSX.git`, commit `a0372136fcc51ba84a5d8f065966ee6fea9b95de`)
+  - Parse (from `https://github.com/ParsePlatform/Parse-SDK-iOS-OSX.git`, commit `a0372136fcc51ba84a5d8f065966ee6fea9b95de`)
   - SwiftyJSON (~> 2.3)
 
 EXTERNAL SOURCES:
   Parse:
     :commit: a0372136fcc51ba84a5d8f065966ee6fea9b95de
-    :git: git@github.com:ParsePlatform/Parse-SDK-iOS-OSX.git
+    :git: https://github.com/ParsePlatform/Parse-SDK-iOS-OSX.git
 
 CHECKOUT OPTIONS:
   Parse:
     :commit: a0372136fcc51ba84a5d8f065966ee6fea9b95de
-    :git: git@github.com:ParsePlatform/Parse-SDK-iOS-OSX.git
+    :git: https://github.com/ParsePlatform/Parse-SDK-iOS-OSX.git
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
