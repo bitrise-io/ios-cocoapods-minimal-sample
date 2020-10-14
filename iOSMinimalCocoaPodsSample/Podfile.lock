@@ -14,24 +14,24 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
-  - Bolts/Tasks (1.9.0)
+  - Bolts/Tasks (1.9.1)
   - FLKAutoLayout (0.2.1)
   - ORStackView (3.0.1):
     - FLKAutoLayout (~> 0.2)
-  - Parse (1.16.0):
-    - Parse/Core (= 1.16.0)
-  - Parse/Core (1.16.0):
-    - Bolts/Tasks (~> 1.9)
+  - Parse (1.19.0):
+    - Parse/Core (= 1.19.0)
+  - Parse/Core (1.19.0):
+    - Bolts/Tasks (= 1.9.1)
   - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - ORStackView (~> 3.0)
-  - Parse (from `https://github.com/ParsePlatform/Parse-SDK-iOS-OSX.git`, commit `854dd75998636ac54edc16f8e4f1f3918788c598`)
+  - Parse (from `https://github.com/ParsePlatform/Parse-SDK-iOS-OSX.git`, commit `931684b3dce25ec447d3df38b02e988970663c24`)
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - Bolts
     - FLKAutoLayout
@@ -40,22 +40,22 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Parse:
-    :commit: 854dd75998636ac54edc16f8e4f1f3918788c598
+    :commit: 931684b3dce25ec447d3df38b02e988970663c24
     :git: https://github.com/ParsePlatform/Parse-SDK-iOS-OSX.git
 
 CHECKOUT OPTIONS:
   Parse:
-    :commit: 854dd75998636ac54edc16f8e4f1f3918788c598
+    :commit: 931684b3dce25ec447d3df38b02e988970663c24
     :git: https://github.com/ParsePlatform/Parse-SDK-iOS-OSX.git
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
   FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
   ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
-  Parse: 5b36dc2c2f0a2fd82a257ae018bc3d68cf2c24e7
+  Parse: 0fb5c7cc7ee5900f2434e24607d0496155b8d04f
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 6d99e49afa3867058282c95c38c9df6a80ea8495
+PODFILE CHECKSUM: fba3b114cbfa4a81588063721c8e42c7c94d310b
 
 COCOAPODS: 1.5.3
